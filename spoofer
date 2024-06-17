@@ -1,0 +1,13 @@
+import requests
+import time
+
+def spoof():
+    while True:
+        try:
+            requests.get('https://fortnite.com')
+            time.sleep(1)
+        except:
+            pass
+
+if __name__ == "__main__":
+    spoof()
